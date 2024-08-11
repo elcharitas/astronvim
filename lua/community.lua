@@ -23,4 +23,6 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.sql" },
+  -- recipes
+  { import = "astrocommunity.recipes.vscode-icons" }
 }
