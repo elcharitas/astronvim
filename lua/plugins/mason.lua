@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- Customize Mason plugins
 
 ---@type LazySpec
@@ -11,6 +9,15 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
+        "ocamllsp",
+        "solidity",
+        "tailwindcss",
+        "html",
+        "biome",
+        "eslint",
+        "bashls",
+        "gopls",
+        "sqls",
         -- add more arguments for adding more language servers
       },
     },
@@ -22,6 +29,8 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
+        "prettier",
+        "pylint",
         -- add more arguments for adding more null-ls sources
       },
     },
@@ -32,6 +41,8 @@ return {
     opts = {
       ensure_installed = {
         "python",
+        "pyright",
+        "rust_analyzer",
         -- add more arguments for adding more debuggers
       },
     },

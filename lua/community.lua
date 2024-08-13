@@ -13,11 +13,11 @@ return {
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.colorscheme.nordic-nvim" },
   -- diagnostics
-  { import = "astrocommunity.diagnostics.error-lens.nvim" },
+  -- { import = "astrocommunity.diagnostics.error-lens-nvim" },
   -- editing support
   { import = "astrocommunity.editing-support.auto-save-nvim" },
   -- file explorer
-  -- { import = "astrocommunity.file-explorer.mini-files" },
+  { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
   -- media
   -- { import = "astrocommunity.media.image-nvim" },
   -- language packs
